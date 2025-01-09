@@ -69,3 +69,47 @@ npm start
 Email: sham@gmail.com  
 
 Password: sham123  
+
+## File Structure  
+
+```bash
+
+/order-management-module
+
+/client
+  /src
+    /components
+      Dashboard.js         # Displays the dashboard and orders
+      Login.js             # Login page
+      Register.js          # Register page
+      Orderitem.js         # Search component for orders
+    /context
+      OrderContext.js      # Context provider for order state management
+      AuthContext.js       # Context for authentication
+    /hooks
+      useAuth.js           # Custom hook for authentication
+    /pages
+      Home.js              # Home page
+    /utils
+      api.js               # API connection helper
+    App.js                 # Main application component
+    index.js               # Entry point for React app
+  package.json
+
+/server
+  server.js               # Backend API for managing orders
+  /models
+    inventoryModel.js      # Model for product inventory
+    orderModel.js          # Order model definition
+    UserModel.js           # User model definition
+  /routes
+    authRoutes.js          # API routes for authentication
+    orderRoutes.js         # API routes for order management
+  /config
+    db.js                  # Database connection configuration
+  /middleware
+    authMiddleware.js      # Middleware for authentication
+  /controllers
+    authController.js      # Controller for authentication
+    orderController.js     # Controller for order management
+ ``` 
