@@ -1,0 +1,17 @@
+/* Example CSS for the app */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
